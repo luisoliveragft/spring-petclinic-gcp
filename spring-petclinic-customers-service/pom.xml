@@ -5,13 +5,14 @@
 
     <groupId>io.jenkins-x.samples.spring.petclinic.client</groupId>
     <artifactId>spring-petclinic-customers-service</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>Spring PetClinic Customers Service</description>
 
     <parent>
         <groupId>io.jenkins-x.samples.spring.petclinic</groupId>
         <artifactId>spring-petclinic-gcp</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <properties>
