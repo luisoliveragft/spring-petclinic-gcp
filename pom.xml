@@ -9,6 +9,36 @@
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
+    <description>
+        This is a Spring Boot Petclinic app for using Google Cloud
+    </description>
+    <url>https://github.com/jenkins-x/spring-petclinic-gcp</url>
+
+
+    <licenses>
+      <license>
+        <name>Apache License, Version 2.0</name>
+        <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        <distribution>repo</distribution>
+      </license>
+    </licenses>
+
+    <scm>
+      <connection>scm:git:git@github.com:jenkins-x/spring-petclinic-gcp.git</connection>
+      <developerConnection>scm:git:git@github.com:jenkins-x/spring-petclinic-gcp.git</developerConnection>
+      <url>http://github.com/jenkins-x/spring-petclinic-gcp</url>
+      <tag>spring-petclinic-gcp-1.0.1</tag>
+    </scm>
+
+    <!-- including A developer as it's required by the maven poms going into central -->
+    <developers>
+      <developer>
+        <id>geeks</id>
+        <name>Development Team</name>
+        <email>jenkins-dev@googlegroups.com</email>
+      </developer>
+    </developers>
+
     <modules>
         <module>spring-petclinic-api-gateway</module>
         <module>spring-petclinic-customers-service</module>
