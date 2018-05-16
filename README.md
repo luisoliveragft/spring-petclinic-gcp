@@ -223,3 +223,9 @@ $ travis env set PROJECT_ID $PROJECT_ID
 ```
 
 Commit `.travis.yml`
+
+## Generating/updating the separate microservices
+
+Use the following command from the CLI or in your CI/CD pipeline:
+
+    jx step split monorepo -o petclinic-gcp  --glob "spring-*"
